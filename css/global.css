@@ -83,7 +83,7 @@ PROJECT TABS
 	font-family: "proxima-nova", sans-serif;
 	margin-bottom: 0px;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 600;
 	text-transform: uppercase;
 	color: #FF6262;
 	text-decoration: none;		
@@ -109,6 +109,7 @@ a .tags span
 	padding: 2px 9px 2px 9px;
 	box-sizing: border-box;
 	margin: 2px 4px 2px 0px;
+	font-weight: 600;
 	text-transform: uppercase;
 }
 

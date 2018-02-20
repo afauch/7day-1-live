@@ -55,21 +55,23 @@ span.kicker,
 
 #problem
 {
+	left: -16px;
 	background-color: #FF6262;
 	box-shadow: 0 -2px 13px 0 rgba(0,0,0,0.22);
-	border-radius: 8px 8px 0 0;
+	border-radius: 2px;
 }
 #solution
 {
+	left: 16px;
 	background-color: #FFFFFF;
 	box-shadow: 0 2px 13px 0 rgba(0,0,0,0.22);
-	border-radius: 0 0 8px 8px;
+	border-radius: 2px 2px;
 }
 
 #glance span
 {
 	display: block;
-	font-size: 32px;
+	font-size: 20px;
 	margin-bottom: 16px;
 }
 
@@ -79,7 +81,7 @@ span.kicker,
 	margin-top: 0;
 	margin-bottom: 16px;
 	padding-left: 0;
-	font-size: 32px;
+	font-size: 20px;
 }
 
 #glance span.kicker
@@ -133,6 +135,17 @@ figcaption
 	margin-left: 0;
 }
 
+a,
+a:hover,
+a:visited
+{
+	color: #FF6262;
+}
+
+#process
+{
+	margin-top: 32px;
+}
 
 /*––––––––––––––––––––––––––––––
 MEDIA QUERY
