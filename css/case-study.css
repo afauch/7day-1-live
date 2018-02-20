@@ -92,10 +92,12 @@ span.kicker,
 img#process
 {
 	margin-top: 32px;
+	margin-bottom: 64px;
 }
 
 h2
 {
+	color: #030303;
 	font-size: 32px;
 }
 
@@ -142,9 +144,9 @@ a:visited
 	color: #FF6262;
 }
 
-#process
+#process img
 {
-	margin-top: 32px;
+	margin-top: 16px;
 }
 
 /*––––––––––––––––––––––––––––––
@@ -152,6 +154,12 @@ MEDIA QUERY
 –––––––––––––––––––––––––––––––*/
 @media (max-width: 768px)
 {
+
+	#problem,
+	#solution
+	{
+		left: 0;
+	}
 
 	#problem span,
 	#solution span
